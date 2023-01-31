@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SecurityConfig.java&apos; to &apos;SportyShoes/src/main/java/com.ecommerce.demo&apos;&#x0D;&#x0A;- Original project: &apos;springsecurity&apos;&#x0D;&#x0A;- Destination element: &apos;SportyShoes/src/main/java/com.ecommerce.demo&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.SecurityConfig.java&apos;" description="Copy compilation unit" destination="=SportyShoes/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ecommerce.demo" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo{SecurityConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1673961373854" units="1" version="1.0"/>
+</session>

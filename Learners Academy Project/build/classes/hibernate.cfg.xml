@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/demo</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">Mindscape$9001</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        
+     <!-- converting the hbm2ddl-auto -->   
+     <!--Create command Drops the existing table and recreates again-->  
+     <!--<property name="hbm2ddl.auto">create</property>-->
+        
+ <!--Update command If table is not there it creates the table and updates the same table every time -->
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        
+        <mapping class="com.simplilearn.pojo.Student" ></mapping>
+       
+       <mapping class="com.simplilearn.pojo.Classes" ></mapping>
+        
+       <mapping class="com.simplilearn.pojo.Subject" ></mapping>
+       
+       <mapping class="com.simplilearn.pojo.Teacher" ></mapping>
+        
+        <mapping class="com.simplilearn.pojo.ReportSubjectNTeacher" ></mapping>
+       
+      
+       
+       
+       
+    </session-factory>
+</hibernate-configuration>

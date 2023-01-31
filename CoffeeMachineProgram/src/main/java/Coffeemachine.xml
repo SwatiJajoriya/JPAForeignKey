@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+  <!-- Ioc creates instantiation of objects -->
+  <bean id="capacino" class="com.example.Capacino">
+  <!-- SETTER INJECTION -->
+  <property name="cream" value="Has cream"></property>
+  </bean>
+  
+  <bean id="expresso" class="com.example.Expresso">
+
+  </bean>
+
+</beans>
+

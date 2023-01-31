@@ -1,0 +1,69 @@
+package com.ecommerce.demo.DAO;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+import com.ecommerce.demo.POJO.UserData;
+import com.ecommerce.demo.Repo.UserRepo;
+
+@Service
+public class UserDAO {
+	@Autowired
+	UserRepo repo;
+	
+	
+	public UserData insert(UserData u) {
+		
+		return repo.save(u);
+		}
+
+	public List<UserData> insertall(List<UserData> user){
+		return repo.saveAll(user);
+		
+	}
+
+	public List<UserData> getall(){
+		return repo.findAll();
+	}
+
+	public void deletebyid(int id){
+		repo.deleteById(id);
+	}
+
+	public UserData updateuser(UserData user) {
+		UserData userdata =repo.findById(user.getId()).orElse(null);
+		userdata.setName(user.getName());
+		userdata.setEmail(user.getEmail());
+		userdata.setPhono(user.getPhono());
+		return	repo.save(userdata);
+		
+	}
+
+	public void delete(UserData u) {
+		repo.delete(u);
+
+		
+	}
+
+	// for search
+	public List<ShoeData> listAll(String keyword){
+		if(keyword!=null) {
+			return repo.findAll(keyword);
+		}
+		return null;
+	}
+	//service
+		//customize query
+			public String findbyname(String name,int id){
+			return repo.findByname(name,id);
+		}
+			
+		
+	
+	
+	
+	
+}

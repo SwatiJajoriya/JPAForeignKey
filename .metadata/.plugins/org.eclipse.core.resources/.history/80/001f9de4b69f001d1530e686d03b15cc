@@ -1,0 +1,5 @@
+package com.ecommerce.demo.RestController;
+
+public class BankRestController {
+
+}

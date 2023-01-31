@@ -1,0 +1,10 @@
+package com.ecommerce.demo.Repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ecommerce.demo.POJO.BankData;
+
+public interface BankRepo extends JpaRepository<BankData, Integer>{
+@Query("Select b.amount from BankData b where b.bname=?1")
+public Long getBal(String bname);
+}

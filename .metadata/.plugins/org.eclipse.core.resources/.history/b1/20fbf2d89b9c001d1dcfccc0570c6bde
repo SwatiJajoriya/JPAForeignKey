@@ -1,0 +1,12 @@
+package com.ecommerce.demo.DAO;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ecommerce.demo.Repo.UserRepo;
+
+@Service
+public class UserDAO {
+	@Autowired
+	UserRepo repo;
+}

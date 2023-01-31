@@ -1,0 +1,5 @@
+package com.ecommerce.demo.POJO;
+
+public class BankData {
+
+}
