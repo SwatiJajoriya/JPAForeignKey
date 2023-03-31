@@ -1,5 +1,0 @@
-package com.ecommerce.demo.Repo;
-
-public interface BankRepo {
-
-}

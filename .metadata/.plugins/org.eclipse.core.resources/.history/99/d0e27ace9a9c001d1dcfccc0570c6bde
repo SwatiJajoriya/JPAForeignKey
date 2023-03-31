@@ -1,8 +1,0 @@
-package com.ecommerce.demo.DAO;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class UserDAO {
-
-}

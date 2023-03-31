@@ -29,10 +29,12 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="simplilearn1.testing1"/>
 			<item value="com.example"/>
 			<item value="com.home"/>
 		</list>
 		<list key="groupId">
+			<item value="simplilearn1"/>
 			<item value="WebHibernate"/>
 			<item value="springwebproject"/>
 			<item value="springwebdemo"/>
@@ -44,6 +46,7 @@
 			<item value="mavendemo"/>
 		</list>
 		<list key="artifactId">
+			<item value="testing1"/>
 			<item value="WebSpringhibernate"/>
 			<item value="webproject2"/>
 			<item value="webproject"/>

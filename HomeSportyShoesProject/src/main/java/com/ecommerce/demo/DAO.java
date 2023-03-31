@@ -1,5 +1,7 @@
 package com.ecommerce.demo;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,4 +16,9 @@ public class DAO
 		
 		return repo.save(s);
 		}
+	
+	public List<Shoedata> getall(){
+		return repo.findAll();
+	}
+
 }

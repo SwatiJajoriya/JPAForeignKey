@@ -118,6 +118,8 @@
   <path value="C:/Users/user/.m2/repository/org/springframework/security/spring-security-core/5.7.6/spring-security-core-5.7.6.jar"/>
  </paths>
  <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
   <el/>
  </validation>
  <aliases/>

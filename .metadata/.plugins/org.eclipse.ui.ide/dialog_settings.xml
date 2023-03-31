@@ -96,6 +96,7 @@
 		<item value="org.jboss.tools.websockets.feature:2.2.400.v20220601-0748"/>
 		<item value="org.jboss.tools.wtp.runtimes.tomcat.feature:1.3.207.v20210617-1620"/>
 		<item value="org.sonatype.m2e.egit.feature:0.17.0.202209271423"/>
+		<item value="org.testng.eclipse:7.4.0.202106051955"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
